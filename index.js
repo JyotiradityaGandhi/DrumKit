@@ -15,31 +15,31 @@ document.addEventListener("keydown", function(eve){
 function makeSound(key) {
     switch(key) {
         case 'w':  
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/crash.mp3");
+            audio = new Audio("crash.mp3");
             audio.play();
             break;
         case 'a':
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/kick-bass.mp3");
+            audio = new Audio("kick-bass.mp3");
             audio.play();
             break;
         case 's':
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/snare.mp3");
+            audio = new Audio("snare.mp3");
             audio.play();
             break;
         case 'd':
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/tom-1.mp3");
+            audio = new Audio("tom-1.mp3");
             audio.play();
             break;
         case 'j': 
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/tom-2.mp3");
+            audio = new Audio("tom-2.mp3");
             audio.play();
             break;
         case 'k':
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/tom-3.mp3");
+            audio = new Audio("tom-3.mp3");
             audio.play();
             break;
         case 'l':
-            audio = new Audio("F:/Krishna/JS DrumKit/Drum Kit Starting Files/sounds/tom-4.mp3");
+            audio = new Audio("tom-4.mp3");
             audio.play();
             break;
         default: 
